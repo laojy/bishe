@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.face"
+    android:versionCode="1"
+    android:versionName="1.0"
+    >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/faceicon"
+        android:label=""
+        android:theme="@android:style/Theme.Holo"
+      >
+        <activity
+            android:name="com.example.face.Denglu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.face.Zhuce" ></activity>
+        <activity android:name="com.example.face.checkgrou" ></activity>
+        <activity android:name="com.example.face.checkstu" ></activity>
+        <activity android:name="com.example.face.MyCameraDemo" ></activity>
+        <activity android:name="com.example.face.qiandao" ></activity>
+        <activity android:name="com.example.face.checkin" ></activity>
+         <activity android:name="com.example.face.addgroup" ></activity>
+         <activity android:name="com.example.face.meminfo" ></activity>
+         <activity android:name="com.example.face.mdfphoto" ></activity>
+         <activity android:name="com.example.face.addinfo" ></activity>
+    </application>
+    <uses-feature android:name="android.hardware.camera" />
+	<uses-feature android:name="android.hardware.camera.autofocus" />
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+</manifest>

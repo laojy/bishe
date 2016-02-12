@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    android:background="@drawable/bp4">
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="50dp"
+       android:layout_marginTop="120dp"
+       android:orientation="horizontal">
+        <TextView
+        android:id="@+id/aitvc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textColor="#000000"
+        android:text="公司" />
+
+    <EditText 
+        android:id="@+id/aietc"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+         android:textColor="#000000"
+        />
+       
+   </LinearLayout>
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginTop="20dp"
+       android:layout_marginLeft="50dp">
+        <TextView
+        android:id="@+id/aitvn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textColor="#000000"
+        android:text="姓名" />
+
+    <EditText 
+        android:id="@+id/aietn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textColor="#000000"
+        />
+       
+   </LinearLayout>
+<LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+       android:layout_marginLeft="50dp">
+        <TextView
+        android:id="@+id/aitvnu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textColor="#000000"
+        android:text="编号" />
+
+    <EditText 
+        android:id="@+id/aietnu"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textColor="#000000"
+        />
+       
+   </LinearLayout>
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+       android:layout_marginLeft="50dp">
+        <TextView
+        android:id="@+id/aitvti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textColor="#000000"
+        android:text="职位" />
+
+    <EditText 
+        android:id="@+id/aietti"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textColor="#000000"
+        />
+       
+   </LinearLayout>
+   <Button 
+       android:id="@+id/aib"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="150dp"
+       android:layout_marginTop="20dp"
+       android:background="@drawable/button_style"
+       android:text="确定"/>
+</LinearLayout>
